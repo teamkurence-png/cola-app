@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColaPop - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="cyberpunk-theme">
+    <!-- Crypto Icons Background -->
+    <div class="crypto-icons">
+        <div class="crypto-icon bitcoin">₿</div>
+        <div class="crypto-icon ethereum">Ξ</div>
+        <div class="crypto-icon bitcoin-2">₿</div>
+        <div class="crypto-icon ethereum-2">Ξ</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="cyber-nav">
+        <div class="cyber-nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/logo-cola.png" alt="ColaPop Logo">
+                </a>
+            </div>
+            <ul class="cyber-nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore Flavours</a></li>
+                <li><a href="terms.html">Terms Flavors</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="cyber-main">
+        <!-- Page Header -->
+        <div class="cyber-page-header">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+
+        <!-- Contact Section -->
+        <section class="cyber-contact-section">
+            <div class="container">
+                <div class="cyber-contact-wrapper">
+                    <div class="cyber-contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Have questions about our cola flavors? Want to share feedback? Fill out the form and we'll get back to you as soon as possible.</p>
+                        
+                        <div class="cyber-contact-details">
+                            <div class="cyber-contact-item">
+                                <h3>📧 Email</h3>
+                                <p>info@colapop.com</p>
+                            </div>
+                            <div class="cyber-contact-item">
+                                <h3>📞 Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div class="cyber-contact-item">
+                                <h3>🕐 Business Hours</h3>
+                                <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cyber-form-container">
+                        <form id="contactForm" class="cyber-form">
+                            <div class="cyber-form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="cyber-form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="cyber-form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject">
+                            </div>
+
+                            <div class="cyber-form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="cyber-btn submit-btn">Send Message</button>
+                            <div class="success-message" id="successMessage">
+                                ✓ Thank you! Your message has been sent successfully.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
